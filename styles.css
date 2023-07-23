@@ -2,22 +2,24 @@ body {
     /*height: 100vh; /**************/
     display: flex;
     flex-direction: column;
-    margin: 0;    
+    margin: 0;
+    font-style: Hero;    
 }
 
-.header, .intro {
-    background-color: #1f2937;
-    color: white;
-    
+/*HEADER*/
+.header, .hero {
+    background-color: #1f2937;    
 }
 
 .header ul {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;    
     display: flex;
     list-style-type: none;
     gap: 20px;
     padding: 16px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .header a {
@@ -29,7 +31,54 @@ body {
     margin-left: auto;
 }
 
-.intro {
+/*HERO*/
+.hero {
     display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.hero-text,
+.hero-image {
+    width: 500px;    
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    width: 150px;
+    height: 36px;
+    border:0;
+    border-radius: 8px;
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+/* unnecessary, added only to display equal to the given model*/
+img {
+    background-color: gray;
+    box-sizing: border-box;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
 }
 
