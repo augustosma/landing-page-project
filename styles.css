@@ -47,7 +47,6 @@ body {
 .hero-text {
     display: flex;
     flex-direction: column;
-
 }
 
 .hero-text h1 {
@@ -178,9 +177,16 @@ button {
     border: #f9faf8 1px solid;
 }
 
+/*FOOTER*/
 
-
-
-
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+    font-size: 26px;
+    padding: 50px;
+}
 
 
